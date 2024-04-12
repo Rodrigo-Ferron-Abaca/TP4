@@ -100,6 +100,10 @@ public class TP4 extends javax.swing.JFrame {
         int num = Integer.parseInt(jTIngresar.getText());
          num=num* 9/5 + 32;
         //listo
+        //david
+        //la parte de resultado cambiar mateo
+        JlResultado.setText(num+"");
+        jTIngresar.setText("");
     }//GEN-LAST:event_jBEnviarActionPerformed
 
     private void jBLimpiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBLimpiarActionPerformed
