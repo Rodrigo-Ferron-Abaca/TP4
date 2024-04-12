@@ -107,7 +107,9 @@ public class TP4 extends javax.swing.JFrame {
     }//GEN-LAST:event_jBEnviarActionPerformed
 
     private void jBLimpiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBLimpiarActionPerformed
-        // TODO add your handling code here:
+        JlResultado.setText("");
+        jTIngresar.setText("");
+        //pal mateo los resultados :P
     }//GEN-LAST:event_jBLimpiarActionPerformed
 
     /**
