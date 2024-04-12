@@ -95,7 +95,11 @@ public class TP4 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jBEnviarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBEnviarActionPerformed
-        // william te tira error aun ?
+        
+        
+        int num = Integer.parseInt(jTIngresar.getText());
+         num=num* 9/5 + 32;
+        //listo
     }//GEN-LAST:event_jBEnviarActionPerformed
 
     private void jBLimpiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBLimpiarActionPerformed
