@@ -30,6 +30,7 @@ public class TP4 extends javax.swing.JFrame {
         jTIngresar = new javax.swing.JTextField();
         jBEnviar = new javax.swing.JButton();
         jBLimpiar = new javax.swing.JButton();
+        JLResultado = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -61,19 +62,25 @@ public class TP4 extends javax.swing.JFrame {
                 .addContainerGap(71, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(JLResultado, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(112, 112, 112)
                 .addComponent(jBLimpiar)
-                .addGap(105, 105, 105))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(64, 64, 64)
-                .addComponent(jTIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(48, 48, 48)
+                .addComponent(jTIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jBEnviar)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 113, Short.MAX_VALUE)
+                .addGap(18, 18, 18)
+                .addComponent(JLResultado, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
                 .addComponent(jBLimpiar)
-                .addGap(39, 39, 39))
+                .addContainerGap(65, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -102,12 +109,12 @@ public class TP4 extends javax.swing.JFrame {
         //listo
         //david
         //la parte de resultado cambiar mateo
-        JlResultado.setText(num+"");
+        JLResultado.setText(num+"");
         jTIngresar.setText("");
     }//GEN-LAST:event_jBEnviarActionPerformed
 
     private void jBLimpiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBLimpiarActionPerformed
-        JlResultado.setText("");
+        JLResultado.setText("");
         jTIngresar.setText("");
         //pal mateo los resultados :P
     }//GEN-LAST:event_jBLimpiarActionPerformed
@@ -148,6 +155,7 @@ public class TP4 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel JLResultado;
     private javax.swing.JButton jBEnviar;
     private javax.swing.JButton jBLimpiar;
     private javax.swing.JPanel jPanel1;
